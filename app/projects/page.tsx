@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Projects",
   description:
-    "Upcoming initiatives and research across Politics, Finance, AI, Sports, and Culture.",
+    "Upcoming global experiential ventures shared with you across AI & Technology, Finance & Markets, Politics & Religion, Sports & Health, and Media & Culture.",
 };
 
 type ProjectDomain = {
@@ -30,7 +30,7 @@ const UPCOMING_PROJECTS: ProjectDomain[] = [
     status: "In Development",
     summary:
       "Quantitative market research, mid-frequency prediction market models, and cross-border capital allocation.",
-    focusAreas: ["Prediction Markets", "Corporate Finance", "Market Microstructure"],
+    focusAreas: ["Prediction Markets & Event Contracts", "Quantitative & Systematic Strategies", "Private Markets & Alternative Investments"],
   },
   {
     number: "03",
@@ -45,7 +45,7 @@ const UPCOMING_PROJECTS: ProjectDomain[] = [
     category: "Sports",
     status: "In Development",
     summary:
-      "Statistical performance modeling, probabilistic sports pricing, and long-form essays from competitive football.",
+      "Statistical performance modeling, probabilistic sports pricing, and competitive football analytics.",
     focusAreas: ["Sports Analytics", "Event Pricing", "Football"],
   },
   {
@@ -54,7 +54,7 @@ const UPCOMING_PROJECTS: ProjectDomain[] = [
     status: "Upcoming",
     summary:
       "Field notes across 30+ countries, heritage horology and gemstones, design systems, and recorded interviews.",
-    focusAreas: ["Global Travel", "Horology & Luxury", "Podcast & Essays"],
+    focusAreas: ["Travel & Lifestyle", "Business", "Podcasts & Blogs"],
   },
 ];
 
@@ -144,13 +144,13 @@ export default function ProjectsPage() {
             GitHub
           </a>
           <a
-            href="mailto:hello@insafidris.com"
+            href="mailto:insaf.idris@insafidris.com"
             className="transition-colors hover:text-zinc-200"
           >
-            hello@insafidris.com
+            insaf.idris@insafidris.com
           </a>
         </div>
-        <span>insafidris.com · Est. November 18, 2026</span>
+        <span>insafidris.com · est. 18 November</span>
       </footer>
     </div>
   );
