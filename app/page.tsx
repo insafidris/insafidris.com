@@ -1,8 +1,11 @@
+import Link from "next/link";
+
 const PILLARS = [
-  "Quantitative Markets",
-  "Agentic AI & Systems",
-  "Global Ventures & Luxury",
-  "Essays & Media",
+  "AI & Technology",
+  "Finance & Markets",
+  "Politics & Religion",
+  "Sports & Health",
+  "Media & Culture",
 ];
 
 export default function HomePage() {
@@ -10,29 +13,27 @@ export default function HomePage() {
     <div className="mx-auto flex min-h-dvh max-w-3xl flex-col justify-between px-6 py-10 sm:px-10 sm:py-14">
       {/* Top Bar */}
       <header className="flex items-center justify-between border-b border-zinc-800/80 pb-6">
-        <span className="font-mono text-xs tracking-[0.2em] text-zinc-200 uppercase">
-          Insaf Idris
+        <span className="font-mono text-xs tracking-[0.2em] text-zinc-200">
+          Sadakkathullah Insaf Idris
         </span>
         <div className="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-zinc-900/70 px-3 py-1 font-mono text-[11px] tracking-wider text-zinc-300">
           <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
-          <span>EST. 18 NOV 2026</span>
+          <span>est. 18 November</span>
         </div>
       </header>
 
       {/* Core Thesis */}
       <main className="my-16 space-y-8">
         <p className="font-mono text-xs tracking-[0.18em] text-zinc-500 uppercase">
-          Genesis // Personal Archive &amp; Platform
+          Profile - Projects | Blogs | Podcasts | Algorithms | Learn
         </p>
 
         <h1 className="text-3xl leading-tight font-medium tracking-tight text-zinc-50 sm:text-5xl sm:leading-[1.15]">
-          Building enduring systems across capital markets, technology, and
-          craftsmanship.
+          Welcome to Insaf Idris!
         </h1>
 
         <p className="max-w-xl text-base leading-relaxed text-zinc-400 sm:text-lg">
-          The permanent digital home for my research, engineering builds,
-          ventures, and field notes. Full architecture deploying in phases.
+          The digital house for my global experiential ventures - academia, corporate and entrepreneurship across varying areas of interests.
         </p>
 
         <div className="flex flex-wrap gap-2 pt-2">
@@ -65,7 +66,7 @@ export default function HomePage() {
             hello@insafidris.com
           </a>
         </div>
-        <span>insafidris.com · Est. November 18, 2026</span>
+        <span>insafidris.com · est. 18 November</span>
       </footer>
     </div>
   );
